@@ -1,0 +1,414 @@
+/***********   Main Page Styling    **************/
+body {
+  font-family:'Raleway',sans-serif;
+  padding-top:50px
+}
+
+#home-page {
+  margin-bottom:40px
+}
+
+a {
+  text-decoration:none
+}
+
+.catags {
+  color:#fff;
+  padding:100px 0
+}
+
+/***********         Home Page Heading       ****************/
+.jumbotron {
+  background-image:url(img/fashion.jpg);
+  background-position:right;
+  background-size:cover;
+  text-align:center;
+  padding:100px 0
+}
+
+.jumbotron p {
+  font-size:2.5em;
+  color:#fff;
+  font-weight:700
+}
+
+.btn {
+  margin-top:30px;
+  background-color:inherit;
+  border:1px solid #fff;
+  color:#4065bb;
+  font-family:'Baumans',cursive
+}
+
+#nav-name {
+  float:left;
+  margin-top:18px;
+  margin-left:-10px;
+  font-size:.7em;
+  color:#fff;
+  text-transform:uppercase
+}
+
+/***********   ABOUT PAGE HEADING      ****************/
+.about-page .jumbotron {
+  background:url(img/about1.jpg) center;
+  background-size:cover;
+  padding:180px 0
+}
+
+.about-page .jumbotron p {
+  padding:0 15px;
+  display:inline-block;
+  background-color:#a0a0a0;
+  border-radius:2px
+}
+
+.about-blurb {
+  text-align:center;
+  margin-top:-20px;
+  padding-bottom:20px;
+  border:1px dashed #000
+}
+
+#about-faq {
+  text-align:center;
+  padding-bottom:20px;
+  margin-top:20px;
+  border:1px dashed #000
+}
+
+.about-blurb h2 {
+  font-weight:700;
+  font-size:1.4em
+}
+
+#about-page {
+  margin-bottom:20px
+}
+
+.about-people {
+  text-align:center
+}
+
+#phollwey h2 {
+  color:#66b2ff
+}
+
+#mgladdish h2 {
+  color:#ffb266
+}
+
+/***********   IDEAS PAGE HEADING      ****************/
+.ideas-page .jumbotron {
+  background:url(img/ideashead.jpg) center;
+  background-size:cover;
+  padding:180px 0
+}
+
+.ideas-page .jumbotron p {
+  padding:0 15px;
+  display:inline-block;
+  background-color:#66b2ff;
+  border-radius:2px
+}
+
+#ideas-page {
+  text-align:center;
+  margin-bottom:40px
+}
+
+.ideas-box {
+  text-align:left;
+  border:5px solid #fff
+}
+
+.ideas-box h2 {
+  color:#66b2ff
+}
+
+/***********  Numbers PAGE HEADING      ****************/
+.numbers-page .jumbotron {
+  background:url(img/numbers1.jpg) center;
+  background-size:cover;
+  padding:180px 0
+}
+
+.numbers-page .jumbotron p {
+  padding:0 15px;
+  display:inline-block;
+  background-color:#ffb266;
+  border-radius:2px
+}
+
+#numbers-blurb {
+  text-align:center;
+  margin-top:-20px;
+  padding-bottom:10px;
+  border:none;
+  border-bottom:1px dashed #000;
+  margin-bottom:20px
+}
+
+#numbers-blurb h2 {
+  font-weight:700;
+  font-size:1.4em
+}
+
+#numbers-blurb span {
+  font-weight:bolder;
+  color:#ffb266
+}
+
+#numbers-blurb h2 a {
+  text-decoration:none
+}
+
+#numbers-blurb h2 a:hover {
+  text-decoration:underline;
+  color:#ffb266
+}
+
+.figures {
+  padding:20px;
+  text-align:center;
+  border:5px solid #fff;
+  -webkit-box-shadow:inset 0 0 0 1px #ffb266;
+  -moz-box-shadow:inset 0 0 0 1px #ffb266;
+  box-shadow:inset 0 0 0 1px #ffb266
+}
+
+.figures h3 {
+  font-size:2.6em
+}
+
+.figures span {
+  font-size:.5em
+}
+
+.numbers-page footer {
+  margin-top:110px
+}
+
+/**************       Contact      ****************/
+.contact-page footer {
+  position:fixed;
+  bottom:0
+}
+
+.contact-page {
+  text-align:center;
+  background:url(img/contact1.jpg) no-repeat center center fixed;
+  height:100%;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  color:#fff
+}
+
+.contact-page h1 {
+  padding:5px 20px;
+  display:inline-block;
+  background-color:#66ffb2;
+  border-radius:2px;
+  margin-top:150px
+}
+
+#contact-details {
+  display:inline-block
+}
+
+.contact-page h3 {
+  padding:5px;
+  display:block;
+  font-size:1em;
+  background-color:#000;
+  color:#fff
+}
+
+.contact-page h3 span {
+  color:#66ffb2
+}
+
+.contact-page a {
+  text-decoration:none;
+  color:#fff
+}
+
+/****************   Navigation    *****************/
+.navbar {
+  background-color:#000;
+  border:none;
+  border-radius:none
+}
+
+img {
+  margin-top:-5px;
+  display:inline-block
+}
+
+#myNavbar {
+  text-align:center
+}
+
+.navbar-toggle {
+  background-color:#000;
+  border:1px solid grey
+}
+
+.navbar-toggle .icon-bar {
+  background-color:grey
+}
+
+/*******     Small Screens       *************/
+.small-catag {
+  text-align:center;
+  border-top:5px solid #fff
+}
+
+.small-catag h2 {
+  font-size:2em
+}
+
+.small-catag p {
+  font-weight:700
+}
+
+.small-catag-para {
+  background-color:#000
+}
+
+/****************   About    *****************/
+#intro-small {
+  margin-top:-20px;
+  padding-bottom:20px;
+  border:none
+}
+
+#intro-small h2 {
+  font-weight:700;
+  font-size:1.4em
+}
+
+#findOut {
+  color:#4065bb
+}
+
+#about-small {
+  background:url(img/about.jpg) center;
+  background-size:cover
+}
+
+#about-small h2 {
+  background-color:#a0a0a0
+}
+
+/****************   Ideas    *****************/
+#ideas-small {
+  background:url(img/ideas2.jpg) center;
+  background-size:cover
+}
+
+#ideas-small h2 {
+  background-color:#66b2ff
+}
+
+/****************   Numbers   *****************/
+#numbers-small {
+  background:url(img/numbers.jpg) center;
+  background-size:cover
+}
+
+#numbers-small h2 {
+  background-color:#ffb266
+}
+
+/****************   Contact   *****************/
+#contact-small {
+  background:url(img/contact.jpg) center;
+  background-size:cover
+}
+
+#contact-small h2 {
+  background-color:#66ffb2
+}
+
+/****************   Footer    ********************/
+footer {
+  width:100%;
+  font-size:.5em
+}
+
+footer p {
+  margin-bottom:0;
+  text-align:center
+}
+
+/***************************************************************
+                      MEDIA QUERIES
+****************************************************************/
+/* Custom, iPhone Retina */
+/* Small Devices, Tablets */
+@media only screen and (min-width : 766px) {
+/***************************************************************
+                    HOME PAGE STYLING
+****************************************************************/
+.small-catag {
+  border:10px solid #fff
+}
+
+.jumbotron {
+  padding:250px 0
+}
+
+.jumbotron p {
+  font-size:5.6em
+}
+
+#about-small {
+  border:10px solid #fff
+}
+
+.about-blurb {
+  text-align:center;
+  margin-top:15px;
+  margin-bottom:15px;
+  padding-top:10px;
+  padding-bottom:10px
+}
+
+#about-faq {
+  text-align:center;
+  margin-top:20px;
+  padding-bottom:20px;
+  border:1px dashed #000
+}
+
+#about-page {
+  margin-bottom:40px
+}
+
+/***************************************************************
+                    IDEAS PAGE STYLING
+****************************************************************/
+
+.ideas-box {
+  border:10px solid #fff
+}
+
+/***************************************************************
+                    CONTACT PAGE STYLING
+****************************************************************/
+
+.contact-page h1 {
+  font-size:5.6em
+}
+
+#contact-details {
+  display:inline-block
+}
+
+.contact-page h3 {
+  font-size:2.5em
+}
+
